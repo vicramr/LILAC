@@ -1,4 +1,12 @@
 benchmark_settings = {
+    'Logs': {
+        'log_file':  'Logs/Logs_2k.log',
+        'log_format': '<Content>',
+        'regex': [],
+        'st': 0.5,
+        'depth': 4
+        },
+
     'HDFS': {
         'log_file': 'HDFS/HDFS_2k.log',
         'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
